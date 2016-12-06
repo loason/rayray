@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hh.android.stock.testkit.widget.CommonTitleView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ctv:mainTitle="@string/test_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/txt_black"
+                android:textSize="@dimen/txt_middle"
+                android:text="@string/default_str"/>
+
+            <Button
+                android:id="@+id/btn_change_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:text="@string/change_address"
+                android:textColor="@color/common_white"
+                android:background="@drawable/red_button_shape"/>
+
+            <Button
+                android:id="@+id/btn_crash_log"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:text="@string/crash_log"
+                android:textColor="@color/common_white"
+                android:background="@drawable/red_button_shape"/>
+
+            <Button
+                android:id="@+id/btn_log_cat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:text="@string/check_log"
+                android:textColor="@color/common_white"
+                android:background="@drawable/red_button_shape"/>
+
+            <Button
+                android:id="@+id/btn_device_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:text="@string/device_info"
+                android:textColor="@color/common_white"
+                android:background="@drawable/red_button_shape"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

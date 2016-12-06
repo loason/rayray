@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hh.android.stock.testkit">
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application>
+
+        <!-- 测试工具相关页面 -->
+        <activity
+            android:name=".TestMainActivity"
+            android:label="@string/kit_name"
+            android:icon="@drawable/ic_config"
+            android:taskAffinity="android.stock.testkit"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".page.PageChangeAddress"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".page.PageCrashLog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".page.PageLogCat"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".page.PageCrashLogDetail"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".page.PageDeviceInfo"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonTitleView">
+        <attr name="mainTitle" format="string"/>
+        <attr name="subTitle" format="string"/>
+        <attr name="rightTxt" format="string"/>
+        <attr name="rightSrc" format="reference"/>
+        <attr name="leftSrc" format="reference"/>
+        <attr name="leftTxt" format="string"/>
+    </declare-styleable>
+
+</resources>

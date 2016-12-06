@@ -1,0 +1,11 @@
+<resources>
+    <string name="kit_name">辅助工具</string>
+    <string name="default_str">--</string>
+
+    <string name="test_title">测试主页</string>
+    <string name="change_address">修改地址</string>
+    <string name="crash_log">奔溃日志</string>
+    <string name="check_log">查看log</string>
+    <string name="device_info">设备信息</string>
+
+</resources>

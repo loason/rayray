@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 页面通用字体大小 -->
+    <dimen name="txt_huge">24dp</dimen>
+    <dimen name="txt_large">17dp</dimen>
+    <dimen name="txt_middle">15dp</dimen>
+    <dimen name="txt_normal">14dp</dimen>
+    <dimen name="txt_small">12dp</dimen>
+    <dimen name="txt_smaller">10dp</dimen>
+
+    <dimen name="dp16">16dp</dimen>
+
+</resources>
